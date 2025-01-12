@@ -1,0 +1,263 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.bgpic{
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/BG.jpg');
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 12vw;
+}
+.Logo{
+    width: 9.2vw;
+    margin: .4vw 0vw 0vw 8vw;
+}
+
+.signinbtn{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: .3vw .8vw;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    width: fit-content;
+    height: fit-content;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.form{
+    text-align: center;
+    margin: 16vw 0vw 0vw 32vw;
+    color: aliceblue;
+    width: fit-content;
+    h1{
+        width:33vw;
+        font-size: 3.3vw;
+        font-weight: 900;
+        text-align: center;
+    }
+    .start{
+        font-size: 1.16vw;
+        font-weight: 600;
+        margin-bottom: 2vw;
+    }
+    div{
+        display: flex;
+        gap: .4vw;
+        input{
+            width: 22vw;
+            height: 3vw;
+            background: transparent;
+            border: 1px solid rgb(117, 114, 114);
+            backdrop-filter: blur(3px);
+            padding-left: 1vw;
+            color: aliceblue;
+            border-radius: 3px;
+        }
+        input::placeholder{
+            color:rgb(191, 196, 200);
+        }
+        button{
+            width: 12vw;
+            height: 3.4vw;
+            border: none;
+            background-color: red;
+            font-size: 1.4vw;
+            font-weight: 600;
+            color: aliceblue;
+            border-radius: 3px;
+        }
+    }
+
+}
+.card{
+    h1{
+        position: absolute;
+        bottom: 2%;
+        left: -12%;
+        color: black;
+        border: 1px solid;
+        text-shadow: -1.5px -1.5px 0 #e1ecef, 1.5px -1.5px 0 #e1ecef, -1.5px 1.5px 0 #e1ecef, 1.5px 1.5px 0 #e1ecef;
+        font-size: 5.7vw;
+        font-weight: 800;
+        font-family:sans-serif;
+        
+      
+    }
+}
+.image{
+    width: 10.6vw;
+    height: 15vw;
+}
+
+
+.main{
+    background-color: black; 
+    width: 100%; 
+    height: 100%;
+    padding: 10vw 0vw;
+}
+
+
+.acc-list{
+    width: 80vw;
+    margin: 10vw 0vw 0vw 9vw;
+    height: fit-content;
+    /* .acc-head{
+        font-size: 1.2vw;
+        border: none;
+        height: 6vw;
+        background-color: rgb(0, 0, 0);
+    } */
+    .acc-item{
+        border: none;
+        background-color: rgb(0, 0, 0);
+    }
+    .acc-item:focus{
+        border: none;
+        outline: none;
+    }
+    .plusicon{
+        position: absolute;
+        right: 1%;
+        font-size: 3vw;
+    }
+    button{
+        background-color: #2b2a2a;
+        font-size: 1.4vw;
+        color: #e1ecef;
+        padding: 2vw 1.4vw;
+        margin-top: .5vw;
+    }
+    button:focus{
+        background-color: #414141;
+        /* border: 2px solid #414141 ; */
+        outline: 2px solid #414141;
+        color: #e1ecef;
+    }
+    button:hover{
+        background-color: #3e3d3d;
+        font-size: 1.4vw;
+        color: #e1ecef;
+        padding: 2vw 1.4vw;
+        margin-top: .5vw;
+    }
+    .acc-cont{
+        font-size: 1.4vw;
+        color: #e1ecef;
+        background-color: #2D2D2D;
+    }
+}
+
+
+
+.HReasons{
+    margin-top:5vw;
+    .hR{
+        font-size: 1.6vw;
+        color: white;
+        margin-left: 9vw;
+        margin-bottom: 1vw;
+    }
+}
+.Reasons{
+    display: flex;
+    width:100%;
+    justify-content:center;
+    gap: .5vw;
+    
+}
+.cardReasons{
+    background:linear-gradient(153.61deg,#e40913 -192.17%,#170f48 80.89%);
+    padding: 1.4vw 1vw;
+    width: 20vw;
+    border-radius: 10px;
+    h1{
+        font-size: 1.4vw;
+        color: aliceblue;
+    }
+    p{
+        font-size: .9vw;
+        color: rgb(178, 180, 182);
+    }
+    img{
+        width: 5vw;
+        float:right;
+        position: relative;
+        bottom: 0%;
+        right: 0%;
+    }
+}
+
+
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 4vw;
+    color: #e1ecef;
+    height: fit-content;
+    padding-bottom: 5vw;
+    .email-button{
+        display: flex;
+        justify-content: center;
+        gap: .4vw;
+        margin-bottom: 5vw;
+        input{
+            width:33vw;
+            font-size: 1vw;
+            padding: .6vw;
+            background-color: transparent;
+            border: 1px solid rgb(155, 150, 150);
+            border-radius: 5px;
+        }
+        button{
+            width: 12.5vw;
+            font-size: 1.5vw;
+            color: #e1ecef;
+            background-color: red;
+            font-weight: 600;
+            padding: .5vw;
+            border:none;
+            border-radius: 5px;
+        }
+    }
+    .footerlinks{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 9vw 0vw 0vw 1.5vw;
+
+        a{
+            color: #c0c2c3;
+        }
+        li{
+            list-style-type: none;
+            text-align: left;
+            margin-top: .7vw;
+            font-size: .8vw;
+        }
+    }
+    select{
+        width: fit-content;
+        padding: .2vw .8vw;
+        background-color: rgba(255,255,255,0.05);
+        color: #e1ecef;
+        float: left;
+        margin: 3.5vw 0vw 0vw 9.2vw;
+        font-family: sans-serif;
+    }
+    .netflixpak{
+        float: left;
+        margin: 8.3vw 0vw 0vw -6.5vw;
+        font-size: .8vw;
+        color: #c0c2c3;
+    }
+}
+
+.footer>a{
+    float: left;
+    margin-left: 9.2vw;
+    color: #c0c2c3;
+}
