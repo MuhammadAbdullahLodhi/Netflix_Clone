@@ -83,6 +83,11 @@
         
       
     }
+    
+}
+.card:hover{
+    transform: scale(1.07);
+    transition: .5s;
 }
 .image{
     width: 10.6vw;
@@ -208,15 +213,16 @@
         justify-content: center;
         gap: .4vw;
         margin-bottom: 5vw;
-        input{
+        .inp{
             width:33vw;
             font-size: 1vw;
             padding: .6vw;
             background-color: transparent;
             border: 1px solid rgb(155, 150, 150);
             border-radius: 5px;
+            color: white;
         }
-        button{
+        .button{
             width: 12.5vw;
             font-size: 1.5vw;
             color: #e1ecef;
